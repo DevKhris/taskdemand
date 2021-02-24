@@ -11,6 +11,13 @@ require_once 'src/Kernel/Route.php';
 use App\Kernel\Router;
 use App\Kernel\Database;
 
+/**
+ * Class Application
+ *
+ * @package App\Application;
+ *
+ * @author Christian Hernandez (@DevKhris) <devkhris@outlook.com>
+ */
 class Application
 {
     public static Database $db;

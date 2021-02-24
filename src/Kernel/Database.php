@@ -5,7 +5,7 @@ namespace App\Kernel;
 /**
  * Class Database for database management
  *
- * @package RubyNight\App\Core\Database;
+ * @package RubyNight\App\Kernel\Database;
  *
  * @author Christian Hernandez (@DevKhris) <devkhris@outlook.com>
  */
