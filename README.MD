@@ -1,4 +1,5 @@
-<center> ![TaskDemand](images/taskdemand_logo.png) </center>
+
+![TaskDemand](images/taskdemand_logo.png)
 # TaskDemand WebAPP & API
 
 ## About
