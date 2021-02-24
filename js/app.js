@@ -80,7 +80,7 @@ $(function () {
                         </td>
                         <td>${task.description}</td>
                         <td>
-                            <button class="btn btn-outline-danger task-delete">X</button>
+                            <button class="btn btn-outline-primary task-delete">X</button>
                         </td>
                     </tr>`;
         });

@@ -7,7 +7,7 @@ class Route
 
 	protected $uri;
 	protected $closure;
-	// protected $uriPattern;
+	protected $uriPattern;
 
 	const PARAMETER_PATTERN = '/:([^\/]+)/';
 	const PARAMETER_REPLACEMENT = '(?<\1>[^/]+)';

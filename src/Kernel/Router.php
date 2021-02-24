@@ -63,9 +63,9 @@ class Router
 			echo json_encode($response);
 		} else if ($response instanceof Response) {
 			$response->execute();
-		} else {
+		} else if (!$response) {
 			header("HTTP/1.0 404 Not Found");
-			exit('404');
+			exit('<h1 style="text-align: center;">404 | Not Found</h1>');
 		}
 	}
 }

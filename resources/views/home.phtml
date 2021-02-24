@@ -3,14 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta description="Tasks Management System for organizing tasks">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasks App</title>
+    <title>TaskDemand</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
-        <?php require_once 'resources/views/partials/navbar.phtml' ?>
+        <?php require_once 'resources/views/partials/navbar.phtml'; ?>
     </header>
 
     <main class="container p-5 mx-auto">
@@ -39,14 +40,14 @@
                         <ul id="container"></ul>
                     </div>
                 </div>
-                <div class="card-my-4" id="buttons">
+                <div class="card my-4" id="buttons">
                     <a class="btn btn-info task-refresh">Refresh</a>
                 </div>
                 <table class="table table-bordered table-responsive-sm">
                     <thead>
                         <tr>
                             <td>Id</td>
-                            <td>Name</td>
+                            <td>Title</td>
                             <td>Description</td>
                         </tr>
                     </thead>
@@ -56,9 +57,11 @@
         </div>
     </main>
 
+    <?php require_once 'resources/views/layout/footer.phtml'; ?>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
+
 </body>
 
 </html>
