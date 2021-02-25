@@ -14,7 +14,7 @@ TaskDemand is a BREAD (Browser, Read, Edit, Add, Update) Task Management System 
 
 __Data from db will be wipe after 24hrs to avoid abuse__
 
-[Demo](https://taskdemand.rf.gd/)
+[Demo](https://taskdemand.000webhostapp.com/)
 
 ## API
 
