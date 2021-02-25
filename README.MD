@@ -18,7 +18,7 @@ __Data from db will be wipe after 24hrs to avoid abuse__
 
 ## API
 
-###Endpoint for getting all tasks **^POST^**
+### Endpoint for getting all tasks **^POST^**
 
 ```
 > /tasks
@@ -30,7 +30,7 @@ to fetch task by id
 
 ```
 > /tasks/:id
-> example: https://taskdemand.rf.gd/tasks/1
+> example: https://taskdemand.000webhostapp.com/tasks/1
 ```
 
 ### Endpoint for search tasks by title **^POST^**
@@ -39,7 +39,7 @@ to fetch search results
 
 ```
 - > /tasks/search/:query
-- > example: https://taskdemand.rf.gd/tasks/search/querytext
+- > example: https://taskdemand.000webhostapp.com/tasks/search/querytext
 ```
 
 ### Endpoint for adding tasks **^POST^**
@@ -62,7 +62,7 @@ Delete task sending the id of task as part of the URI reemplacing the :id placeh
 
 ```
 > /task/delete/:id
-> example: https://taskdemand.rf.gd/task/delete/1
+> example: https://taskdemand.000webhostapp.com/task/delete/1
 ```
 
 ## Coming Next
